@@ -1,0 +1,40 @@
+.recieved {
+  display: flex;
+  background-color: white;
+  align-self: flex-start;
+  justify-self: flex-start;
+  max-width: 55%;
+  padding: 18px 12px;
+  border-radius: 12px;
+  font-size: 15px;
+  flex-direction: column;
+  text-wrap: wrap;
+  white-space: wrap;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.082);
+}
+.sent {
+  display: flex;
+  background: linear-gradient( to right, #01ccb8, #57e6d7, #01ccb8);
+  align-self: flex-end;
+  justify-self: flex-end;
+  max-width: 55%;
+  padding: 18px 12px;
+  border-radius: 12px;
+  font-size: 15px;
+  flex-direction: column;
+  text-wrap: wrap;
+  flex-wrap: wrap;
+  white-space: wrap;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.082);
+}
+.sent p,
+.recieved p {
+  width: 100%;
+  overflow-wrap: break-word;
+  text-wrap: wrap;
+}
+.date {
+  font-size: 11px;
+  color: grey;
+  align-self: flex-end;
+}

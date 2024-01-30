@@ -1,0 +1,103 @@
+.img {
+  flex: 3;
+  max-width: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+.main {
+  width: 80%;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  height: 80%;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.form {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  justify-content: space-around;
+}
+.formFields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.inputView {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+
+  border: 2px solid #cccccc;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.inputView input {
+  font-size: 16px;
+  font-family: "Montserrat";
+  outline: 0;
+  border: 0;
+  width: 100%;
+}
+
+.form button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #00ab9b;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #017e71;
+  }
+}
+.greetings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.credits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.employee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.employee img {
+  max-width: 50px;
+}
+.employee p {
+  font-size: 32px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #00ab9b;
+}
+
+.employee span {
+  color: #e99d44;
+}

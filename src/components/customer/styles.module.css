@@ -1,0 +1,66 @@
+.customer {
+  width: 100%;
+  padding: 24px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-height: 100px;
+  height: 100%;
+  overflow: hidden;
+  &:hover {
+    background-color: #0e7c71;
+  }
+}
+.customerActive {
+  width: 100%;
+  padding: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-height: 100px;
+  overflow: hidden;
+  background-color: #0e8a7d;
+  height: 100%;
+}
+.customerName {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff
+}
+.lastMessage {
+  font-size: 14px;
+  color: rgb(245, 245, 245);
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+}
+.user {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 4px;
+  width: 40px;
+  min-width: 40px;
+}
+
+.notification{
+  background-color: rgb(77, 207, 131);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}

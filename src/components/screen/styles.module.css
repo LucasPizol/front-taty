@@ -1,0 +1,102 @@
+.screen {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  background-color: #00ab9b;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  max-height: 70px;
+  height: 100%;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.205);
+  z-index: 999;
+}
+.header input {
+  font-size: 24px;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-family: "Montserrat";
+  background-color: transparent;
+  color:#fff
+}
+.headerInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.header button {
+  background-color: rgb(250, 97, 97);
+  border: none;
+  outline: none;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    background-color: rgb(255, 71, 71);
+  }
+}
+.section {
+  width: 100%;
+  display: flex;
+  padding: 24px 48px;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: scroll;
+  flex: 1;
+}
+.inputView {
+  width: 100%;
+  padding: 16px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 80px;
+}
+
+.inputView input {
+  outline: none;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  background-color: transparent;
+}
+.inputView button {
+  height: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  outline: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #00ab9b, #12887c);cursor: pointer;
+}
+.blocked {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
