@@ -40,6 +40,7 @@ export const Content = () => {
     io.on(
       "recieved_message",
       (message: MessageType, customer: CustomerType) => {
+        console.log(customer)
         const customersRefCopy = customersRef.current
           ? [...customersRef.current]
           : [];

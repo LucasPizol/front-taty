@@ -28,8 +28,6 @@ const getUser = async (): Promise<UserType> => {
       },
     }
   );
-  console.log("teste");
-
   return data.data;
 };
 
